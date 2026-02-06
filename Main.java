@@ -1,14 +1,27 @@
 /**
- * Program description.
- * @author Your Name
+ * Program creates quick-print replacements for lost or stolen Employment Authorization Cards. Recippiant gains a temporary
+ low-resolution print card. 
+ * @kaleah Bartlett 
  */
 public class Main
 {
 	public static void main(String[] args)
 	{
 		//DECLARATION + INITIALIZATION SECTION
-		
+		 String Surname = ""
+		 String Given Name = ""
+		 int USCIS# =
+		 String Category = ""
+		 int Card# = ""
+		 String Country = ""
+		 ArrayList<int> datefull = new ArrayList<int>();
+			datefull.add(); // Day
+			datefull.add(); // Month
+			datefull.add(); // Year
+		datefull.add(0, "Mazda"); // Insert element at the beginning of the list (0)
+		String sex = ""
 		//INPUT SECTION
+		
 		// N/A
 		
 		//CALCULATION SECTION
@@ -18,7 +31,7 @@ public class Main
 		System.out.println("║         UNITED STATES OF AMERICA");
 		System.out.println("║                                  EMPLOYMENT AUTHORIZATION CARD");
 		System.out.println("║                       Surname");
-		System.out.println("║                       ███████ ");
+		System.out.println("║                       o███████ ");
 		System.out.println("║  .----.    .----.     Given Name");
 		System.out.println("║ (   ^  \\  /  ^   )    ███████ ");
 		System.out.println("║        |  |           USCIS#         Category   Card#");
